@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+/* --navbar-font-family:  'Fredoka One', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+/* --navbar-font-family: "Sofia", cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+
+:root {
+    --navbar-width: 100%;
+    --navbar-height: 75px;
+    --navbar-background-color: #E5D9F2;
+    --navbar-font-size: 38px;   
+    --navbar-font-family: "Sofia", cursive;
+
+    --section-width: 100%;
+    --section-height: 420px;
+    --background1: #fff;
+    --background2: #CDC1FF;
+
+}

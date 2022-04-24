@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Landing page</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="root.css" />
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            header {
+                width: var(--navbar-width);
+                height: var(--navbar-height);
+                background: var(--navbar-background-color);
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                gap: 25%;
+            }
+            header > * {
+                gap: 3em;
+            }
+            .logo {
+                font-family: var(--navbar-font-family);
+                font-size: var(--navbar-font-size);
+                font-weight: 900;
+            }
+            .sections {
+                width: var(--section-width);
+                min-height: var(--section-height);
+            }
+            .section1 {
+                background-color: var(--background1);
+                background-size: cover;
+            }
+            .section1 .big-text {
+                color: black;
+                min-height: fit-content;
+            }
+            .big-text {
+                font-family: "Roboto", sans-serif;
+                font-size: xx-large;
+                margin: 20px 30px;
+                text-align: center;
+            }
+            .container {
+                display: flex;
+                /* width: 70%; */
+            }
+            .nav-link {
+                font-family: "Akshar", sans-serif;
+                justify-content: space-around;
+            }
+            .nav-link a {
+                text-decoration: none;
+                font-size: 25px;
+                color: black;
+                /* font-weight: 500; */
+            }
+
+            .section2 {
+                background-color: var(--background2);
+                color: white;
+            }
+            @media screen and (max-width: 767px) {
+                .container {
+                    display: none;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="logo">InstaKilogram</div>
+            <div class="container">
+                <div class="nav-link"><a href="#about">About</a></div>
+                <div class="nav-link"><a href="#sign-up">Sign up</a></div>
+                <!-- <div class="nav-link"><a href=""></a></div> -->
+            </div>
+        </header>
+        <section class="section1 sections">
+            <div class="big-text">The heavyweight champion of social media <br /></div>
+            <img
+                src="https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.15752-9/278126710_327244442726748_1669857720248598352_n.png?_nc_cat=109&ccb=1-5&_nc_sid=ae9488&_nc_ohc=WM0ow92qvsoAX_lTrXb&_nc_ht=scontent.fsgn2-4.fna&oh=03_AVL5uZxz1bkaDWD_lXlpfUdwHBBbW7U6EmdyYUKR_v63tg&oe=6285922B"
+                alt=""
+                width="40%"
+            />
+        </section>
+        <section class="section2 sections">
+            <div class="big-text">About us</div>
+        </section>
+    </body>
+</html>
